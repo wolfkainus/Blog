@@ -16,6 +16,7 @@
 <h2>Danos tu Comentario</h2>
 <% @comments.each do |comment| %>
 	<hr>
+	<p><small><%= comment.created_at %></small></p>
 	<p><%= comment.content %></p>
 	<hr>
 <% end %>
