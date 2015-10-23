@@ -9,7 +9,7 @@
 # User.destroy_all
 Post.destroy_all
 Comment.destroy_all
-Style.destroy_all
+#Style.destroy_all
 
 #users = []
 
@@ -38,18 +38,18 @@ Style.destroy_all
 #  role: 'basic'
 #)
 
-styles = []
+#styles = []
 
-styles << Style.create(name: 'Rock')
-styles << Style.create(name: 'Pop')
-styles << Style.create(name: 'Metal')
-styles << Style.create(name: 'Folk')
-styles << Style.create(name: 'Punk')
-styles << Style.create(name: 'Disco')
-styles << Style.create(name: 'Electro')
-styles << Style.create(name: 'Indie')
-styles << Style.create(name: 'House')
-styles << Style.create(name: 'Classic')
+#styles << Style.create(name: 'Rock')
+#styles << Style.create(name: 'Pop')
+#styles << Style.create(name: 'Metal')
+#styles << Style.create(name: 'Folk')
+#styles << Style.create(name: 'Punk')
+#styles << Style.create(name: 'Disco')
+#styles << Style.create(name: 'Electro')
+#styles << Style.create(name: 'Indie')
+#styles << Style.create(name: 'House')
+#styles << Style.create(name: 'Classic')
 
 
 
